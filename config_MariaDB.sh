@@ -6,8 +6,8 @@ set -e
 # Run mysql_secure_installation with default values
 if mysql_secure_installation <<EOF
 Y
-YourSecurePassword
-YourSecurePassword
+password
+password
 Y
 Y
 Y
