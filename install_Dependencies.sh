@@ -28,10 +28,10 @@ else
 fi
 
 # Install PHP 8.0
-if apt install -y php8.0 php8.0-{cli,gd,mysql,pdo,mbstring,tokenizer,bcmath,xml,fpm,curl,zip}; then
-    echo "PHP 8.0 installed successfully."
+if apt install -y php php-{cli,gd,mysql,pdo,mbstring,tokenizer,bcmath,xml,fpm,curl,zip}; then
+    echo "PHP installed successfully."
 else
-    echo "Failed to install PHP 8.0."
+    echo "Failed to install PHP."
     exit 1 # Abort script
 fi
 
